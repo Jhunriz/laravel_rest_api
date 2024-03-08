@@ -10,4 +10,5 @@ class Games_api extends Model
     use HasFactory;
 
     protected $table = "Games_apis";
+    protected $fillable = ['title','description'];
 }

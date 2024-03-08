@@ -15,8 +15,8 @@ class GamesApiSeeder extends Seeder
     public function run()
     {
         Games_api::create([
-            'title' => 'title1',
-            'description' => 'description2',
+            'title' => 'Mobile Legends',
+            'description' => 'This mobile legends is a failure',
         ]);
     }
 }
